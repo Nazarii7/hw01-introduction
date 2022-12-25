@@ -1,0 +1,28 @@
+{
+  "name": "hw01-introduction",
+  "version": "1.0.0",
+  "description": "//links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazarii7/hw01-introduction.git"
+  },
+  "keywords": [],
+  "author": "YOUR_NAME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazarii7/hw01-introduction/issues"
+  },
+  "homepage": "https://github.com/Nazarii7/hw01-introduction#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4"
+  }
+}
