@@ -11,7 +11,7 @@ async function invokeAction({ action, id, name, email, phone }) {
       break;
 
     case "add":
-      console.log("invoke add", name, email, phone);
+      console.log("invoke add", name);
       await addContact(name, email, phone);
       break;
 
@@ -26,7 +26,7 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 //invokeAction({ action: "list" });
-//invokeAction({ action: "get" });
+invokeAction({ action: "get" });
 invokeAction({
   action: "add",
   name: "Cyrus Franks",
