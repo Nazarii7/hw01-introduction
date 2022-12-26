@@ -36,7 +36,7 @@ async function getContactById(contactId) {
 async function removeContact(contactId) {
   try {
     const data = await readContact();
-    const updateData = data.filter((contact) => contact.id != contactId);
+    const updateData = data.filter((contact) => contact.id !== contactId);
     await fs.writeFile(contactsPath, JSON.stringify(updateData, null, 2));
   } catch (error) {
     console.error(error.message);
